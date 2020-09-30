@@ -1,0 +1,106 @@
+*
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1005px;
+}
+.header_botton
+{
+    background: -moz-linear-gradient(45deg, rgba(183,8,103,1) 0%, rgba(183,8,103,1) 99%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(183,8,103,1)), color-stop(99%, rgba(183,8,103,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(183,8,103,1) 0%, rgba(183,8,103,1) 99%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(183,8,103,1) 0%, rgba(183,8,103,1) 99%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(183,8,103,1) 0%, rgba(183,8,103,1) 99%, rgba(0,128,128,1) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(183,8,103,1) 0%, rgba(183,8,103,1) 99%, rgba(0,128,128,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#b70867',GradientType=1 ); /* ie6-9 */
+    height: 42px;
+}
+#main_menu
+{
+    list-style: none;
+    font-size: 20px;
+}
+#main_menu li
+{
+    display: inline-block; 
+}
+#main_menu li a
+{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+    padding: 0px;
+    border: 2px solid #222;
+}
+#main_menu li a:hover
+{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: black;
+}
+.header_top
+{
+    background-color: #222;
+}
+.header_top .container
+{
+    height: 230px;
+    background-image: url("flower.jpg");
+    background-position: right 2px top;
+    background-repeat: no-repeat;
+    padding-top: 1px;
+}
+h1 
+{
+    color: rgb(234, 234, 240);
+    text-align: left; 
+    font-size: 33px;
+    margin: 43px 0 0 12px;
+}
+h2
+{
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+    color: #bc096d;  
+}
+.main_text
+{
+    margin: left;
+    
+      
+}
+.main_text p
+{
+    border-right: 1PX solid;
+    padding: 10px 0px 0px 40px;
+    font-size: 15px;
+}
+.navfooter
+{
+    background-color: #222;
+}.navfooter p
+{
+    color: #bc096d;
+    font-size: 20px;
+    margin: 10px;
+}
+.navfooter a
+{
+    border: 2px solid  #ccc;
+    text-decoration: none;
+    line-height: 20px;
+    color: rgb(234, 234, 240);
+}

@@ -1,51 +1,50 @@
-body
-{
-    background-color: lawngreen;
-    box-sizing: border-box;
-}
-.header
-{
-    background-image: url(banner.jpg);
-    width: 1653px;
-    height: 130px;
-    margin: 0px auto;
-    padding: 0px;
-}
-.Name-site
-{
-    text-align: center;
-    font-size: 89px;
-    color: rgb(248, 255, 255);
-}
-.nav
-{
-    width: 1653px;
-    height: 50px;
-    margin: 0px auto;
-    padding: 20px 10px 5px 10px;
-    background-color:#8e882a;
-    text-align: left;
-    font-size: 35px;
-       
-}
-.textp
+.footer
 {
     margin: 0px auto;
-    width: 1653px;
-    height: 50px;
+    background-color: #121116;
+    box-sizing: border-box
+}
+.cointeiner
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1170px;
+    color: #fff;
+}
+.kasper
+{
+    padding: 120px 505px 55px 506px;
+    height: 113px;
+    width: 36px;
+}
+.social h2
+{
+    content: '';
+    padding: 0PX 510px 20PX 504px;
+    background-position: center center;
     font-size: 20px;
-    text-align: left;
-    color: rgb(37, 12, 146);
-}
-.foto
-{
-    margin: 310px auto;
-    width: 1653px;
-    height: 120px;
-   font-size: 80px;
-
-
-
-}    
-   
+    font-family: 'Open Sans', sans-serif;
     
+    
+    
+}
+.social ul
+{
+    display: flex;
+    padding: 22px 513px 88px 511px;
+    list-style: none;
+    justify-content: space-between;
+}
+.jama
+{
+    padding: 0px 453px 37px 467px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
+}
+.jama a
+{
+    color:#19c8fa;
+    text-decoration: none;
+}
+

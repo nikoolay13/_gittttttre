@@ -18,9 +18,11 @@
 }
 .kasper
 {
+    display: inline-block;
     padding: 120px 505px 55px 506px;
     height: 113px;
     width: 36px;
+    
 }
 .social h2
 {
